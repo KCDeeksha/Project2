@@ -1,0 +1,52 @@
+body{
+    background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+form{
+    background-color: cornsilk;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+}
+
+.form-details{
+    text-align: left;
+    margin-bottom: 25px; 
+}
+
+.form-details label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-details input,
+.form-details select,
+.form-details textarea{
+    border:1px solid #777 ;
+    border-radius:2px ;
+    font-family: 'Courier New', Courier, monospace;
+    padding:10px ;
+    display: block;
+    width: 90%;
+}
+
+.form-details input[type="radio"],
+.form-details input[type="checkbox"]{
+    width: auto;
+    display: inline-block;
+}
+
+button{
+    background-color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 2px;
+    border:1px solid #777;
+    font-size: 21px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: block;
+    width:100%
+}
+
